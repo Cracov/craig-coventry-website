@@ -14,6 +14,7 @@ function Timeline() {
                   title={item.title}
                   duration={item.duration}
                   details={item.details}
+                  logo={item.logo}
                />
             ))}
          </div>

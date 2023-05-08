@@ -7,7 +7,7 @@ import Timeline from './components/Timeline';
 function App() {
 	return (
 		<>
-			<div className="bg-white text-stone-900 min-h-screen font-Montserrat">
+			<div className="bg-red-50 text-stone-900 min-h-screen font-Montserrat">
 				<div className="max-w-5xl w-11/12 mx-auto">
 					<Intro />
 					<Project />

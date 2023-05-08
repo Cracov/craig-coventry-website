@@ -61,9 +61,6 @@ function Intro() {
          <p className="text-sm max-w-2xl mb-6">
             Hi, I'm a recent graduate from the University of Edinburgh! I'm particularly interested in the areas of
             machine Learning, data Science, education and anything plant related!
-
-
-            REACT | TAILWIND | VITE
             </p>
       </div>
    )

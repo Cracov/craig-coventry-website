@@ -1,12 +1,10 @@
 import React from 'react';
 import { Fragment } from 'react';
 
-function ProjectItem({ title, imgUrl, stack, link }) {
+function ProjectItem({ title, imgUrl, stack, link, details }) {
    return (
-      <a
-         href={link}
-         target="_blank"
-         rel="noopener noreferrer"
+      <div
+      onClick={() => console.log(title,details)}
          className="border-2 border-stone-900 rounded-md overflow-hidden"
       >
          <img
@@ -25,7 +23,7 @@ function ProjectItem({ title, imgUrl, stack, link }) {
                
             </p>
          </div>
-      </a>
+      </div>
    )
 }
 
